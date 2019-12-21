@@ -11,7 +11,7 @@ public class MagentoTest
 	@Test
 	public void test()
 	{
-		WebDriver driver = new FirefoxDriver();
+		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://www.magento.com");
 		Welcome w = new Welcome(driver);
